@@ -12,7 +12,7 @@ import QuestionPage from "@/components/QuestionPage";
 import axios from "axios";
 import { Button } from "./components/ui/button";
 
-const BASEURL = "http://localhost:8000";
+const BASEURL = "https://be1e-223-178-211-250.ngrok-free.app/";
 
 const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(!!localStorage.getItem("token"));
